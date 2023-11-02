@@ -1,0 +1,10 @@
+.ancora{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    padding: 0.57% 3.3%;
+    border-radius: 5px;
+}
+
+.ancora:hover{
+    background-color: #9f776c;
+}

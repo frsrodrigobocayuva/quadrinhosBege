@@ -1,0 +1,34 @@
+:root{
+    --cor-primaria: #E3876D;
+    --cor-secundaria:#7D716E;
+    --cor-terciaria: #B08478;   
+    --cor-quaternaria: #4A3A35;
+    --cor-quinta: #33130A;
+}
+
+.header{
+    height: 5vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--cor-terciaria);
+    box-shadow: 0 10px 15px rgba(26, 26, 26, 0.15);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.headerButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--cor-secundaria);
+}
+
