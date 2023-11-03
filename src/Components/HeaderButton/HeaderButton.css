@@ -1,3 +1,8 @@
+*{
+    font-family: 'Sora', sans-serif;
+}
+
+
 .ancora{
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -7,4 +12,5 @@
 
 .ancora:hover{
     background-color: #9f776c;
+    box-shadow: 0 0 10px rgba(26, 26, 26, 0.15);
 }
